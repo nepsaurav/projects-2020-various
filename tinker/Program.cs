@@ -23,6 +23,16 @@ namespace tinker
             foreach(int item in digits){
                 Console.WriteLine("{0} ", item);
             }
+            LinkedList();
+        }
+
+        static void LinkedList(){
+
+            int[] List = new int[5];
+            for (int x = 0; x < List.Length; x++){
+                List[x] = x;
+            }
+            
         }
     }
 }
